@@ -54,6 +54,7 @@ body {
     background: #eee;
     border: 1px solid #aaa;
     position: relative;
+    margin-top: 20px;
 }
 
 .country-flag img {
@@ -92,4 +93,16 @@ body {
     box-sizing: border-box;
     border-radius: 10px;
     border-radius: 10px;
+}
+
+@media(max-width: 768px) {
+    .country-info {
+        display: flex;
+        flex-direction: column;
+        min-height: 130vh;
+    }
+
+    .country-map {
+        min-height: 180px;
+    }
 }

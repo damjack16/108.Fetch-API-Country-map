@@ -58,8 +58,6 @@ fetch('https://restcountries.eu/rest/v2/all?fields=iso2Code;name')
                             id: 'mapbox/streets-v11',
                             accessToken: 'pk.eyJ1IjoiZGFtamFjayIsImEiOiJjazQzcXphMmQwN2s1M2ZvNjZ1YnBpN2NrIn0.QmvaGn94IKlvYRQn7ZSXFQ'
                         }).addTo(countryMap);
-                        console.log(latApi);
-                        console.log(lngApi)
                     })
                 })
         })
